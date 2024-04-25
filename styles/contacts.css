@@ -7,32 +7,31 @@
     font-size: 34px;
     font-weight: 700;
     color: var(--color-main-black);
-}
-
-.contacts-button {
-    width: 210px;
-    height: 42px;
-    background-color: var(--color-main-black);
-    border: none;
-    border-radius: 21px;
-    margin: 75px 0 30px;
-}
-.contacts-button:hover {
-    opacity: .7;
+    margin: 0 0 60px 0;
 }
 
 .button-link {
+    width: 210px;
+    height: 42px;
+    padding: 10px 10px 10px 10px;
+    background-color: var(--color-main-black);
+    border: none;
+    border-radius: 21px;
     color: var(--bg-main);
     font-size: 24px;
     font-weight: 500;
 }
+
+.button-link:hover {
+    opacity: .7;
+ }
 
 .socials {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin: 0 auto;
+    margin: 40px auto 0;
 }
 
 .social-icon {
